@@ -4,7 +4,6 @@ from os import path
 
 file = 'Task1Python\\Notes.csv'
 headline = ['ID', 'Заголовок', 'Текст', 'Дата/время']
-# previous_id = 0
 notebook = []
 
 
