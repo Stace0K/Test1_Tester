@@ -3,24 +3,24 @@ package Task2Java;
 public class ToysPro {
     int ID;
     String name;
-    double weight;
+    double rate;
 
-    public ToysPro(int ID, String name, double weight) {
+    public ToysPro(int ID, String name, double rate) {
         this.ID = ID;
         this.name = name;
-        this.weight = weight;
+        this.rate = rate;
     }
 
-    public void setWeight(float weight) {
-        this.weight = weight;
+    public void setRate(double rate) {
+        this.rate = rate;
     }
 
-    public double getWeight() {
-        return weight;
+    public double getRate() {
+        return rate;
     }
 
     @Override
     public String toString() {
-        return "Toy [id=" + ID + ", name=" + name + ", weight=" + weight + "]";
+        return "ID = " + ID + ", название = " + name + ", частота выпадения = " + rate + "";
     }
 }
